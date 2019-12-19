@@ -1,0 +1,136 @@
+.link-hover{
+position: relative;
+ height: 397px;
+ width: 100%;
+ text-align: center;
+ transition: 0.5s;
+ top: 0;
+}
+
+.content-hover{
+    position: absolute;
+    top: 176.25px;
+    margin: 0;
+    width: 100%;
+}
+div.child p{
+    margin: 4px;
+    font-family: 'Oswald', sans-serif;
+}
+h4{
+    color: #fff ;
+    border-bottom: 1px solid rgba(255,255,255,1);
+    margin: 4px;
+       font-size: 20px;
+    line-height: 27px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+.img-fish .link-parent{
+    text-decoration: none;
+    color: #fff ;
+}
+p.small{
+   text-decoration: none;
+    margin-top: 14.5px;
+    text-transform: uppercase;
+    padding-left: 8px;
+    font-size: 8px;
+    letter-spacing: 3px;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+.corner-left{
+    position: absolute;
+    margin: 30px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+.corner-right{
+     position: absolute;
+     right: 30px;
+     top: 30px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+.corner-left-bottom{
+    position: absolute;
+     left: 30px;
+     bottom: 30px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+.corner-right-bottom{
+    position: absolute;
+     right: 30px;
+     bottom: 30px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+ transition: 0.5s;
+
+}
+/* hover */
+.link-hover:hover{
+ background-color: rgba(0, 0, 0, 0.459);
+}
+.link-hover:hover p.small{
+ display: block;
+ opacity: 1;
+ color: rgba(252, 252, 252, 0.74);
+}
+.link-hover:hover h4.underline{
+opacity: 1;
+}
+.link-hover:hover .corner-left{
+opacity: 1;
+}
+.link-hover:hover .corner-right{
+opacity: 1;
+}
+.link-hover:hover .corner-left-bottom{
+opacity: 1;
+}
+.link-hover:hover .corner-right-bottom{
+    opacity: 1;
+}
+/* ////////////////////////////// */
+
+::-webkit-scrollbar {
+    position: fixed;
+    width: 13px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(255, 254, 254);
+}
+::-webkit-scrollbar-thumb{
+    background: #616161;
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255); ;
+}
+
+ [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+            transition-duration: 1s;
+ }
